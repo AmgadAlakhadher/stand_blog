@@ -1,0 +1,14 @@
+.headSection{
+    background-image: url(../../assest/images/headSections/heading-bg.jpg);
+    padding: 120px;
+    margin: 10px;
+    color: var(--whiteColor);
+}
+.headSection__title{
+    font-weight: bold;
+    color: var(--mainColor);
+}
+.headSection__desc{
+    font-size: 3rem;
+    font-weight: bold;
+}

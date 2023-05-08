@@ -1,0 +1,51 @@
+.contact__content .myContainer{
+    width: 85%;
+}
+.contact__content hr{
+    width: 100%;
+    margin: 20px 0;
+}
+.contact__content__mainContent{
+    padding-right: 5%;
+}
+.contact__content__mainContent__form__half{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.contact__content__mainContent__form__half__input{
+    width: 49.5%;
+    padding: 10px;
+    border: 0.3px solid var(--grayColor);
+    outline: none;
+}
+.contact__content__mainContent__form__message,.contact__content__mainContent__input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 0.3px solid var(--grayColor);
+    outline: none;
+}
+.contact__content__mainContent__form__btn{
+    padding: 10px 26px;
+    border: none;
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    transition: .5s background ease-out;
+}
+.contact__content__mainContent__form__btn:hover{
+    background: var(--grayColor);
+}
+.sidebar__contentDom__list__date{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.sidebar__contentDom__list__title{
+    font-size: 0.95rem;
+    color: var(--grayColor);
+}
+@media (max-width: 992px){
+    .sidebarDom{
+        padding-top: 20px;
+    }
+}

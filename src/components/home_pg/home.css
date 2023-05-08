@@ -1,0 +1,100 @@
+/* style MainContent section */
+.mainContent .myContainer{
+    width: 75%;   
+    float: right;
+}
+.mainContent__item{
+    border: 1px solid #e8e8e8;
+    margin: 10px;
+}
+.mainContent__item__img{
+    height: 340px;
+}
+.mainContent__item__info{
+    padding: 40px 30px 10px 30px;
+}
+.mainContent__item__info__header__cat{
+    color: var(--mainColor);
+}
+.mainContent__item__info__title{
+    margin: 8px 0;
+}
+.mainContent__item .menu{
+    padding: 0;
+}
+.mainContent__item .menu li a{
+    color: var(--grayColor);
+}
+.mainContent__item__info__body__desc{
+    line-height: 1.9;
+    color: var(--grayColor);
+}
+.mainContent__item__info__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.mainContent__item__info__footer__icons{
+    color: var(--grayColor);
+}
+.mainContent__item__info__footer__icons i{
+    color: var(--mainColor);
+    padding-right: 5px;
+}
+.mainContent__btn{
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    border: none;
+    display: block;
+    width: 97%;
+    padding: 20px;
+    margin: 20px auto;
+    opacity: .7;
+    transition: opacity .7s ease-out;
+}
+.mainContent__btn:hover{
+    opacity: 1;
+}
+/* style sidebar section */
+.sidebarDom{
+    width: 80%;
+}
+.searchInputDom__input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 40px 0;
+}
+.sidebar ul{
+    padding: 0;
+}
+.sidebar ul li{
+    border-bottom: 1px solid var(--grayColor);
+    padding: 15px 0;
+}
+.sidebar ul li:last-child{
+    border: none;
+}
+.sidebar ul li a{
+    color: var(--blackColor);
+    transition: color .5s ease-out;
+}
+.sidebar ul li a:hover{
+    color: var(--mainColor);
+}
+.recentPosts__list__date{
+    font-size: 1rem;
+    color: var(--grayColor);
+}
+.tags__btns__link__btn{
+    padding: 8px 16px;
+    margin: 5px;
+    border: .5px solid var(--grayColor);
+    color: var(--blackColor);
+    background: transparent;
+    opacity: .5;
+    transition: background .5s,color .5s,opacity .5s;
+}
+.tags__btns__link__btn:hover{
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    opacity: 1;
+}

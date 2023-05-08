@@ -1,0 +1,82 @@
+/* style css */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+/* */
+:root{
+  --mainColor: #f48840;
+  --hoverMainColor: #F8C471 ;
+  --blackColor: #000;
+  --lightBlackColor: #333;
+  --whiteColor: #fff;
+  --lightGrayColor: #E5E7E9;
+  --grayColor: #7a7a7a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.myContainer {
+  margin: 0 auto;
+  width: 95%;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+.d-none{
+  display: none;
+}
+.pointer{
+  cursor: pointer;
+}
+.clear{
+  clear: both;
+}
+.pd-y-60{
+  padding: 60px 0;
+}
+.bg-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.menu li{
+  display: inline-block;
+}
+.menu li a{ 
+  padding: 8px 16px;
+  border-left: 1px solid var(--lightBlackColor);
+  transition: color .5s;
+}
+.menu li a:hover{
+  color: var(--mainColor);
+}
+.menu li:first-child a{
+  border: none;
+}
+.overLay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
